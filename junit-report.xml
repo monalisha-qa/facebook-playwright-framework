@@ -1,0 +1,16 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="1.0082250000000001">
+<testsuite name="Tag.test.ts" timestamp="2025-12-09T11:41:03.022Z" hostname="" tests="2" failures="0" skipped="0" time="0.009" errors="0">
+<testcase name="Test signup page @smoke" classname="Tag.test.ts" time="0.005">
+<system-out>
+<![CDATA[some signup test @smoke
+]]>
+</system-out>
+</testcase>
+<testcase name="Test add page2 @smoke" classname="Tag.test.ts" time="0.004">
+<system-out>
+<![CDATA[some add test @smoke
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

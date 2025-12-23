@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5585","Hnadle alert","Google Chrome","Tue Nov 11 15:53:26 IST 2025","passed","Tue Nov 11 15:53:31 IST 2025","","Chapter4\Popup_Test.spec.ts","",""
+"","5542","Handle an prompt poup","Google Chrome","Tue Nov 11 15:53:26 IST 2025","passed","Tue Nov 11 15:53:31 IST 2025","","Chapter4\Popup_Test.spec.ts","",""
+"","5486","Handle an confirm poup","Google Chrome","Tue Nov 11 15:53:26 IST 2025","passed","Tue Nov 11 15:53:31 IST 2025","","Chapter4\Popup_Test.spec.ts","",""

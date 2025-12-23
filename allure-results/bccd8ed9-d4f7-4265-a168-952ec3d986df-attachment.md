@@ -1,0 +1,143 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Input" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Enter your full Name
+            - textbox "Enter first & last name" [ref=e36]
+          - generic [ref=e37]:
+            - generic [ref=e38]: Append a text and press keyboard tab
+            - textbox "Enter" [ref=e40]:
+              - /placeholder: "Enter "
+              - text: I am good
+          - generic [ref=e41]:
+            - generic [ref=e42]: What is inside the text box
+            - textbox "Enter" [ref=e44]:
+              - /placeholder: "Enter "
+              - text: ortonikc
+          - generic [ref=e45]:
+            - generic [ref=e46]: Clear the text
+            - textbox "Enter" [ref=e48]:
+              - /placeholder: "Enter "
+              - text: Koushik Chatterjee
+          - generic [ref=e49]:
+            - generic [ref=e50]: Confirm edit field is disabled
+            - textbox "Enter" [disabled] [ref=e52]
+          - generic [ref=e53]:
+            - generic [ref=e54]: Confirm text is readonly
+            - textbox [ref=e56]: This text is readonly
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Insight
+            - generic [ref=e64] [cursor=pointer]: 
+          - generic [ref=e66]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e67]:
+              - listitem [ref=e68]: sendKeys()
+              - listitem [ref=e69]: Keyboard TAB
+              - listitem [ref=e70]: getAttribute()
+              - listitem [ref=e71]: clear()
+              - listitem [ref=e72]: isEnabled()
+          - iframe [ref=e76]:
+            - generic [ref=f1e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f1e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f1e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f1e8]:
+                - button "YouTube" [ref=f1e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f1e11]
+                - button "41K" [ref=f1e12]
+          - button "Watch tutorial" [ref=e78] [cursor=pointer]
+        - generic [ref=e79]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e81]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - generic [ref=e82]:
+      - insertion [ref=e84]:
+        - iframe [ref=e86]:
+          - generic [active] [ref=f2e1]:
+            - generic [ref=f2e6]:
+              - link [ref=f2e7] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                - img [ref=f2e8]
+              - generic [ref=f2e10]:
+                - generic [ref=f2e13]:
+                  - link "Vibe, Then Verify" [ref=f2e16] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                  - link "Sonar is the industry standard for integrated code quality and code security. Get started." [ref=f2e19] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                    - text: Sonar is the industry standard for integrated code quality and code
+                    - text: security. Get started.
+                - generic [ref=f2e22]:
+                  - link:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                  - link "Sonar" [ref=f2e24] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                  - link "Learn More" [ref=f2e26] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                  - link [ref=f2e27] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAWn0qXAxabSID_nI9fwPip-D0QPcyPvnggGlp8G24hTJk9L_gSoQASDTkZYiYOXK5YO0DqAB6tT86ALIAQmpAmqhfm_gkbM-qAMByAPLBKoE7gFP0NEc4xNqsqA1Uh52c14WrHQfOBPWwo9T_d1RpDv_3ARQTFMRjt6YUtG4qOyLusZWUl0VzT5fk_USjgKGJ211kbHBWWs9TwJBcgn1_aJ4YgYwbj9XHitsVtbJwMDuhe1wt_tStP4NmvBh_ZB0xdem7seYYrpwnc3sZ0u1mxKCzpfwwb2M79nuHYUr2-lnUrEcSav-HU2YT0jT9tDrB3C1aNn4XPOP3PTAiRR8tXpdMDSJJ_lunbLiRXXfg2U_H5fIrmHgEYH0hBQ1QXufNfcp4Y0nl5Zo8wTTG1RX8KX9-qP3z_LrIpfQZSqp65J-wAS7y_yQtAWIBf6KpeNVoAYugAf-qoOXAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WLzTyarqo5EDsQksWUsrVR0hEoAKAZgLAcgLAYAMAdoMEAoKEJDjg-evotbEAhICAQOqDQJJTsgNAeoNEwiH09qq6qORAxV5ZJ0JHYrPIDrwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAqRmGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE&num=1&cid=CAQSnwEAwksa0b8VD56slHjS8k20EgcHTQcr0nW3SmM460Dubalw_dnCm4lY5ZRjDZ26nlWoYyKPa1AHKBGbAuvgVRj4kRTQgrB7_jGljK0ztMdI18Etq-Zf9TZxCy9puThtSzaPVmEU_T8Lh89KspuBhNAHjxztFtsfPDanNVfmCyhafKk2xxm8DS3LW9b3iNDudJKQvLh-eoZ5_0c7FJAFTYoYAQ&sig=AOD64_15lC-ITRM2hg1waG3mQOcHFaLXwg&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://sonarsource.com/sem/vibe-then-verify/%3Fs_campaign%3DTOFU_APJ_IN-Brand-EngagedVisitors%26s_content%3DPMax-VibeThenVerify%26s_term%3D%26s_category%3DPaid%26s_source%3DPaid%2520Cross%2520Network%26s_origin%3DGoogle%26cq_src%3Dgoogle_ads%26cq_cmp%3D23021164277%26cq_con%3D%26cq_term%3D%26cq_med%3D%26cq_plac%3D%26cq_net%3Dx%26cq_pos%3D%26cq_plt%3Dgp%26gad_source%3D5%26gad_campaignid%3D23025239422%26gclid%3DEAIaIQobChMI9IDKquqjkQMVeWSdCR2KzyA6EAEYASAAEgL2v_D_BwE
+                    - generic [ref=f2e28]:
+                      - img [ref=f2e29]
+                      - img [ref=f2e31]
+            - img [ref=f2e39] [cursor=pointer]
+            - button [ref=f2e41] [cursor=pointer]:
+              - img [ref=f2e42]
+            - iframe
+      - contentinfo [ref=e87]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - paragraph [ref=e91]: LetCode by Koushik Chatterjee
+            - paragraph [ref=e92]: Empowering Test Automation Engineers through learning
+          - paragraph [ref=e94]:
+            - text: © 2025 LetCode | Created by
+            - link "Koushik Chatterjee" [ref=e95] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ortoni/
+            - text: "&"
+            - link "Bollineni Lakshmi Yaswanth" [ref=e96] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e97]:
+    
+  - insertion [ref=e98]:
+    - iframe [ref=e101]:
+      - iframe [ref=f4e1]:
+        - generic [ref=f5e2]:
+          - link "Advertisement" [ref=f5e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvcaKvHEQsy1bJhUo4r3jNOS_NYn4A6iEY0SR2PKRr1_PGKMHP6KWGY15j6x8E768_tABTZQ4jpJ1CEiiOoihCQt7HjckvcO2bkEpLnFR5Pln1LkhqaZrWpbrmShqQNxzQkQCvinPQq1X-ieKehje09IReTy2bznlM3FQQsYIXVARIQG7Z-bgwCGkcDfssoh3pTJ-PANHwchjF91wq4sEttBP8ck9zOw20xuTvN5ZY9isYriPI-OiTXyBf8JykC1RgKGL0ublEZGINY2lJQ4klB2FdjHaErwPNfORZ0q6fxV4c9ve6vE_50ocLZYzBpbPnnVmFibygik4Vz3YbfsOrtVPAZwdK0G6X0J7RLgfFKXeQsVadmUqMY9ClUI5OrAK9Q0uJzI8vt4SFuK3zP2svdbpqux_TNwCC-E6YnwaaHDhZa1FDaZu_oq3Bo1Xm_7JuoC9zlwC77vDOfxTfdvo7lrfmvQktiL7pbjbTQYPzYjg1Jd4O4_owAJRIo6iAYYXx8eiueqVtsDcvdIzgKSsEJn8FnXl5KjppRNWyygf0et---VB4jx__ivrPQoKRFIjwHO289a6CpOawta4DbvhbLBY6WbXVabHbjXnTj7XxOKs4mFGGT9zp2fpc7CBnYHi1B0IW82JwMfyYTAAMqzl8Ey8ad_kHISdbFu8tvP0HM5aE6EuS7cR28BzS5UAYA0hc_haJ-Icxe6-kdpewZyAWfivRvqxpJ2lH_-mc7-1IldNr6LiiUJntnJU6d1moZTT67txBaizzGQ-zFDml202k5NRxR_PNriiZ7Qg0PHvxCC-9WrLxNT7wWbviJaqOyUciz633pLnfxuFocOKHCIM58VDCVRUusNWK5xnIO7T9ovwpR7QnTAZdpZEZfqNbq8ZPRUHEyXTXVwGTkbmxXC5dvMe3IsC6tuM1gjFrzoUF03jtpr0voOpzlvlPwO8fG9zGd3wEXyEWk1UfqhC3mvFmlagNYBghhtXSlbf5O2gZFLU-AYH8O76CqTs1kQjbB5j3Jo-dPhdv8-iYZs9TEKfBqRCL95WRCyEXwf--p6St5wZGUvhrUvjIn4uouB49yplt3cOOmLljpMxuRYW3YyE1u7233aa14OXmkvF03R1xXTPB8MYWUAkbyrQ01FSdv03_w6sS_z2zl5QNy2lJjeG-LSDvvPfs5a1bI2pWVhdA_jDp3ddLe3yl8kzcVVVDK3Gkhu96n8spZvZv4HQYt_wt2X4yrBpJYICU72svZ2Hh9nwqyVFOW2Pi5pufvgPxg1TYm4rFLnMg73M-YUXYJ_PLCPFZl8YxTkryhLVAwcJZPdMvcYGnkAbSijBjCUYQiRd-IyBIjOE-bVbbT4nbbJC-u91YnDWIwAEd2zgdxpoLerjITp2U_Y8RJ2qp_Hypt0J8ko_gienZScSpUEuqacdQyLGb7iAkryrdWMYfl_ODfwFIxwjZ2lzeS1XmXEeGK5m7IXqq3IfQOeffGw8UtISmeOCnwVk00Zh2b2vZ8Zdo9L5HWu3eyQp2VExylx94RH9nL_qyeFM-QcLDjqHzGubTW2lOiGrmw8JK3FsvUJMGM6qfdcu6lhrv0GnBBKSTjUvmD7TqD6twSR6BJ05TTATymFh68IgNzW_F2_YZ_Y2cFD3ba1lBowmDwljAXYUOlD3sA65TVjxEia69tc9AA5l7az2A8hAPKVTJDIM7A0lPLw2spm2wU5Msq2rI703E7XfRh4d6yfxXAcNXqCmSLJzq--BEGY98xhFv6Oyvmv_UyVwRImLxPCHLUrdaIPs0VeQkdjKv6rWCGeb9AZFhYbpvZ5Pth1mThBMmSJ95tTEmp-FVWOLwf2hMJM3S-CgEuaXNQmjdRXeVIaDurQEMP-TlTkUyb5rWEAlyHz6QVU3Wc-xcY_IvqzYAqTASOq5nQG0CpWcPB2Oqq-z7BNsVet9muMN5RboWQ8kN_0q1ZLyYid8SRoVO4K1Cxhh0b2TtR6erasLCsO6UFsZOsIFnMVLNgACiMFTfs7-3r&sai=AMfl-YSuVb9fcvhsVWvBjk7RxA0vLEhCZwqOkpJYTFsC2Q3I2FKizQs6ww9f18tcYnq2xIep_aiHFrpMx6FkxBvm8aD05u7HQpaYRXE4r1t8g0z5o3A0317ae2VeAL4EuP4JHSy7-5Pf37Og7H84kUxMWQPD9jLIHxwoPOjc_seMdTG_aE9IJMqjEhQ0N2un6buMRobnxLGx9axghxQJSM6YbhzVYlxkc07IWon6M8HZeXuBo_6rCwTmV2832Pf1ttSTkBV8LRS1dPIlmRyBx96T5Bp2P1nVbWqCnNI7KkvstAyipjWxhK5gjsc5E_imv4yH29G-OKhMy7KM2AIwIRBPUqaJ_-DdkYk1KDkWf4HC_L9oqB0BTbudQWNNigIXmM4i3G5qSVnp29jgNPqPq5cRxZ5CjlpOymN55eoQvIwRpMM8dlCZ5PxGi3Nu7PLwZvRdOAM0PMxNOz8xNc3I88UEYo70PZFPq8PEiqsU5yPQwOsXOTSXPYjIk2EzQy-ClgyRKyM78VX3QYUeNui1VXMM10TelBUkyyYsCSbmws4-HBSo2gSi_E2dIXIxhFLrXDStq__gHt9MjudE4kIk65M3NzwekvdTl_6phSjXQEX8080udQJNCzu8njDSmu4Rw6encsg2zi-O8B2_dqM5l99uAiE49I0goO0FnLQ&sig=Cg0ArKJSzNW552_MFZpW&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9pdGNob3RlbHMuY29t&urlfix=1&adurl=https://www.itchotels.com/in/en/clubitc/membership-benefits/enrol%3Futm_source%3Dprogrammatic%26utm_medium%3Ddv360%26utm_content%3Ddisplay%26utm_campaign%3DPFX_Google-HQ_DTL-CHN-NA-QO-DisplayDV360-NA-Tactical-Membership-NA-NA-Feeder-C0%26utm_adgroup%3DDisplayDV360-NA-INT_Feeder-C0-CITCBranding_DisplayDV360-NA-INT_Feeder-0-Customintent4_5starhotels_FeelRewarded%26dclid%3D%25edclid!%26gad_source%3D7
+            - img "Advertisement" [ref=f5e5]
+          - generic [ref=f5e6]:
+            - generic:
+              - img [ref=f5e10] [cursor=pointer]
+              - button [ref=f5e12] [cursor=pointer]:
+                - img [ref=f5e13]
+```

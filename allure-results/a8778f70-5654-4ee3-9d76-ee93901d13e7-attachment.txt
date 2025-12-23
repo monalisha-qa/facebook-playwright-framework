@@ -1,0 +1,13 @@
+values : PlaywrightTutorialFullCourse 
+values : PostmanCollectionsByTestersTalk 
+values : PlaywrightAPITestingTutorial 
+values : RestAssuredAPITestingFramework 
+values : PlaywrightTypeScriptTutorialFullCourse 
+values : CypressTutorialFullCourse 
+-----------
+values : PlaywrightTutorialFullCourse 
+values : PostmanCollectionsByTestersTalk 
+values : PlaywrightAPITestingTutorial 
+values : RestAssuredAPITestingFramework 
+values : PlaywrightTypeScriptTutorialFullCourse 
+values : CypressTutorialFullCourse 

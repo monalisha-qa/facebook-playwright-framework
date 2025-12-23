@@ -1,0 +1,2 @@
+is editable ?false
+is it visiable ? [object Promise]
