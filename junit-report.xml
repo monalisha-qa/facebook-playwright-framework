@@ -1,14 +1,11 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="1.0082250000000001">
-<testsuite name="Tag.test.ts" timestamp="2025-12-09T11:41:03.022Z" hostname="" tests="2" failures="0" skipped="0" time="0.009" errors="0">
-<testcase name="Test signup page @smoke" classname="Tag.test.ts" time="0.005">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="6.0901499999999995">
+<testsuite name="Capter002\Visual_Testing_Test.spec.ts" timestamp="2026-05-17T05:58:13.045Z" hostname="" tests="1" failures="0" skipped="0" time="3.368" errors="0">
+<testcase name="visual_Testing" classname="Capter002\Visual_Testing_Test.spec.ts" time="3.368">
 <system-out>
-<![CDATA[some signup test @smoke
-]]>
-</system-out>
-</testcase>
-<testcase name="Test add page2 @smoke" classname="Tag.test.ts" time="0.004">
-<system-out>
-<![CDATA[some add test @smoke
+<![CDATA[
+[[ATTACHMENT|test-results\Capter002-Visual_Testing_Test-visual-Testing\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Capter002-Visual_Testing_Test-visual-Testing\video.webm]]
 ]]>
 </system-out>
 </testcase>

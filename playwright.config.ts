@@ -1,11 +1,7 @@
+declare const process: any;
+
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test';
-import { on } from 'events';
 
-const config: PlaywrightTestConfig ={
-
-  testMatch :["baseURL\Tag.test.ts"],
-  //["pomtest/addtocart.test.ts"],
-}
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -18,7 +14,7 @@ const config: PlaywrightTestConfig ={
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: 'baseURL',
+  testDir: 'tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -48,7 +44,7 @@ headless :false,
     trace: 'retain-on-failure',
   },
 
-  grep:[new RegExp("@smoke")]
+  // grep:[new RegExp("@smoke")]
 
   
 //you have only 3 files, and you want: Browser.spec.ts → Chrome

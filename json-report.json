@@ -1,19 +1,17 @@
 {
   "config": {
-    "configFile": "C:\\Users\\LENOVO\\Downloads\\PlayWright_Typescript\\playwright.config.ts",
-    "rootDir": "C:/Users/LENOVO/Downloads/PlayWright_Typescript/baseURL",
+    "configFile": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Playwright Automation\\playwright-typescript-framework\\playwright.config.ts",
+    "rootDir": "C:/Users/Lenovo/OneDrive/Desktop/Playwright Automation/playwright-typescript-framework/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
-    "grep": [
-      {}
-    ],
+    "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -34,7 +32,7 @@
         }
       ],
       [
-        "C:\\Users\\LENOVO\\Downloads\\PlayWright_Typescript\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Playwright Automation\\playwright-typescript-framework\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         null
       ]
     ],
@@ -45,15 +43,15 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/LENOVO/Downloads/PlayWright_Typescript/test-results",
+        "outputDir": "C:/Users/Lenovo/OneDrive/Desktop/Playwright Automation/playwright-typescript-framework/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 1
         },
         "id": "",
         "name": "",
-        "testDir": "C:/Users/LENOVO/Downloads/PlayWright_Typescript/baseURL",
+        "testDir": "C:/Users/Lenovo/OneDrive/Desktop/Playwright Automation/playwright-typescript-framework/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -70,17 +68,15 @@
   },
   "suites": [
     {
-      "title": "Tag.test.ts",
-      "file": "Tag.test.ts",
+      "title": "Capter002\\Visual_Testing_Test.spec.ts",
+      "file": "Capter002/Visual_Testing_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test signup page @smoke",
+          "title": "visual_Testing",
           "ok": true,
-          "tags": [
-            "smoke"
-          ],
+          "tags": [],
           "tests": [
             {
               "timeout": 30000,
@@ -93,66 +89,33 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5,
+                  "duration": 3368,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "some signup test @smoke\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-09T11:41:03.944Z",
+                  "startTime": "2026-05-17T05:58:14.100Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Playwright Automation\\playwright-typescript-framework\\test-results\\Capter002-Visual_Testing_Test-visual-Testing\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Playwright Automation\\playwright-typescript-framework\\test-results\\Capter002-Visual_Testing_Test-visual-Testing\\video.webm"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "41bd298bb515b5be9a5a-0fb03067252cc6118061",
-          "file": "Tag.test.ts",
+          "id": "d374ca91cbbbf4f8d2d7-7a057612b9f6b5daf5d8",
+          "file": "Capter002/Visual_Testing_Test.spec.ts",
           "line": 3,
-          "column": 5
-        },
-        {
-          "title": "Test add page2 @smoke",
-          "ok": true,
-          "tags": [
-            "smoke"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 4,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "some add test @smoke\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-09T11:41:03.942Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "41bd298bb515b5be9a5a-59a07207cefe85813d95",
-          "file": "Tag.test.ts",
-          "line": 11,
           "column": 5
         }
       ]
@@ -160,9 +123,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-09T11:41:02.995Z",
-    "duration": 1008.2250000000001,
-    "expected": 2,
+    "startTime": "2026-05-17T05:58:12.913Z",
+    "duration": 6090.15,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
