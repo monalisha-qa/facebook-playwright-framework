@@ -1,2 +1,0 @@
-name is :Testers Talk
-attribute value  is : repositories /BakkappaN?tab=repositories

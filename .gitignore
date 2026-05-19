@@ -3,5 +3,9 @@
 node_modules/
 /test-results/
 /playwright-report/
+/Screenshot/
+/allure-results/
+/allure-report/
 /blob-report/
 /playwright/.cache/
+
